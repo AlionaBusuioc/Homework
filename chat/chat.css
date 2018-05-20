@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+}
+#chat{
+background-color:  #e6f2ff;
+  height: 100vh;
+}
+#chat .menu{
+  height: 20vh;
+  background-color: white;
+}
+#arrow{
+  width: 10px;
+  height: 10px;
+}
+#one{
+padding: 10px;
+}
+form{
+  height: 10vh;
+  width: 100vw;
+  background-color: white;
+  position:absolute;
+  bottom: 0px;
+  text-align: center;
+}
+img{
+  width: 20vw;
+  height: 10vh;
+  border-radius: 50%;
+}
+.box{
+  display: table;
+  margin-left: 25%;
+  margin-top:-70px;
+}
+h2{
+  display: table-row;
+  text-align: center;
+  position: absolute;
+margin-top: -10px;
+color: blue;
+}
+p:first-child{
+  position: relative;
+  text-align: center;
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+.space{
+  margin-top: 15px;
+}
+.color{
+  background-color: white;
+  padding: 12px;
+margin-left: -40px;
+padding-left: 40px;
+}
