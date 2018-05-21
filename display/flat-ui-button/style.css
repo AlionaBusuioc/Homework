@@ -1,0 +1,39 @@
+form, ul, li{
+  display: inline-block;
+}
+nav{
+  background-color: #556;
+  padding: 10px 10%;
+}
+nav form input{
+  background-color: transparent;
+  border-width: 0;
+  border-bottom: 1px solid #778;
+  padding: 5px 10px;
+}
+nav form input::placeholder{
+  color: blue;
+}
+nav form button{
+  background-color: transparent;
+  border-width: 0;
+}
+a{
+  font-family: 'Roboto', sans-serif;
+  color:#ddd;
+}
+/*nav .icon{
+  -webkit-filter:invert(40%) grayscale(100%) brightness(72%) sepia(100%) hue-rotate(-150deg) saturate(400%) contrast(2);
+}*/
+nav .icon{
+  -webkit-filter:invert(60%);
+}
+nav li:hover a{
+  color:black;
+}
+  nav li:hover .icon{
+    filter:none;
+  }
+li{
+    margin-right: 30px;
+}
